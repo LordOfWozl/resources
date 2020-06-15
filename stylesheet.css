@@ -1,24 +1,11 @@
 @font-face {
-    font-family: 'Helvetica Neue LT Std';
-    src: url('HelveticaNeueLTStd-Roman.woff2') format('woff2'),
-        url('HelveticaNeueLTStd-Roman.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Helvetica Neue LT Std';
-    src: url('HelveticaNeueLTStd-Bd.woff2') format('woff2'),
-        url('HelveticaNeueLTStd-Bd.woff') format('woff');
+    font-family: 'Graphik LCG';
+    src: url('GraphikLCG-Bold.eot');
+    src: url('GraphikLCG-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLCG-Bold.woff2') format('woff2'),
+        url('GraphikLCG-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Helvetica Neue LT Std';
-    src: url('HelveticaNeueLTStd-Md.woff2') format('woff2'),
-        url('HelveticaNeueLTStd-Md.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+    font-display: swap;
 }
 

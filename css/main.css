@@ -1,91 +1,19 @@
-
 @font-face {
-    font-family: 'Helvetica Neue LT Std';
-    src: url('../fonts/HelveticaNeueLTStd-Roman.woff2') format('woff2'),
-        url('../fonts/HelveticaNeueLTStd-Roman.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Helvetica Neue LT Std';
-    src: url('../fonts/HelveticaNeueLTStd-Bd.woff2') format('woff2'),
-        url('../fonts/HelveticaNeueLTStd-Bd.woff') format('woff');
+    font-family: 'Graphik LCG';
+    src: url('GraphikLCG-Bold.eot');
+    src: url('GraphikLCG-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLCG-Bold.woff2') format('woff2'),
+        url('GraphikLCG-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Helvetica Neue LT Std';
-    src: url('../fonts/HelveticaNeueLTStd-Md.woff2') format('woff2'),
-        url('../fonts/HelveticaNeueLTStd-Md.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+    font-display: swap;
 }
 
 
-#title {
-}
-
-#main{
-}
-
-#img-div {
-  text-align: center;
-}
-
-#image {
-width: 100%;
-height: auto;
-max-width: 625px;
-margin-left: auto;
-margin-right: auto;
-display: block;
-}
-
-
-/* for codecamp
-#image {
-width: 100%;
-height: auto;
-max-width: 625px;
-margin-left: auto;
-margin-right: auto;
-display: block;
-}
-
-my version:;
-#image {
-  width: 100%;
-  max-width: 900px;
-  height: auto;
-  display: center;
-  padding-top: 90px;
-  padding-bottom: 50px;
-}
-*/
-
-#img-caption{
-}
-
-#tribute-info{   
-}
-
-#tribute-link{
-  text-decoration: underline;
-  color: #00FF00;
-}
-
-#tribute-link-2{
-  text-decoration: underline;
-  color: #00FF00;
-}
-
-/*end code for freecodecamp*/
 
 
 body{
-  background-color: black; 
+  background-color: #FCFDFC; 
   overflow-x: hidden;
 }
 
