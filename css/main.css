@@ -1,14 +1,13 @@
 @font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-Bold.eot');
-    src: url('GraphikLCG-Bold.eot?#iefix') format('embedded-opentype'),
-        url('GraphikLCG-Bold.woff2') format('woff2'),
-        url('GraphikLCG-Bold.woff') format('woff');
+    font-family: 'Circular Std';
+    src: url('CircularStd-Bold.eot');
+    src: url('CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CircularStd-Bold.woff2') format('woff2'),
+        url('CircularStd-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
-
 
 
 
@@ -18,15 +17,14 @@ body{
 }
 
 h1{
-  font-family: Helvetica Neue LT Std, Helvetica;
-  color: white;
-  margin-left: 25px;
-  margin-top: 25px;
+  font-family: CircularStd-Bold, Helvetica;
   font-style: normal;
   font-weight: bold;
-  font-size: 120px;
-  line-height: 95%;
-  text-shadow: rgb(0,0,0,0.5) 1px 0 15px;
+  font-size: 41px;
+  line-height: 50px;
+  color: #232021;
+  margin-left: 25px;
+  margin-top: 25px;
 
 }
 
