@@ -11,11 +11,15 @@
 
 
 /* general */
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   background-color: #FCFDFC; 
   overflow-x: hidden;
 }
+
 
 h1{
   font-family: CircularStd-Bold, Helvetica;
@@ -29,7 +33,49 @@ h1{
 
 }
 
-/* card - fonts */
+/* grid */
+
+.container{
+  max-width: 1680px;
+
+  display: grid;
+  
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 25px;
+
+  border: solid 1px;  
+  grid-template-rows: auto;
+
+}
+
+
+/* card - design */
+
+.card{
+  width: 260px;
+  height: 320px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 12px #EEF0F0;
+  transition: 0.4s;
+  grid-column-start: 2;
+}
+
+.card:hover {
+  box-shadow: 0px 3px 12px #DDDDDD;
+  transform: scale(1.01);
+}
+
+.card-img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #E1E3E3;
+  width: 260px;
+  height: 193px;
+  overflow: hidden;
+}
+
+/* card - typography */
 
 p.subtitle{
   font-family: Helvetica;
@@ -49,34 +95,5 @@ p.text{
   line-height: 18px;
   color: #8F969C;
   margin: 0px 15px 0px 15px;
-}
-
-
-/* card - design */
-
-.card{
-  width: 260px;
-  height: 320px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 3px 12px #EEF0F0;
-  transition: 0.4s;
-}
-
-.card:hover {
-  box-shadow: 0px 3px 12px #DDDDDD;
-  transform: scale(1.01);
-}
-
-.card-img{
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  background-color: #E1E3E3;
-  width: 260px;
-  height: 193px;
-}
-
-.card-text{
-
 }
 
