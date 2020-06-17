@@ -9,6 +9,28 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Circular Std';
+    src: url('CircularStd-Medium.eot');
+    src: url('CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('CircularStd-Medium.woff2') format('woff2'),
+        url('CircularStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url('CircularStd-Book.eot');
+    src: url('CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('CircularStd-Book.woff2') format('woff2'),
+        url('CircularStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* 
 inspiration/help
 https://sbxow.csb.app/  
@@ -158,21 +180,23 @@ main {
 /* card - typography */
 
 p.subtitle{
-  font-family: Helvetica;
+  font-family: CircularStd-book, Helvetica;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  letter-spacing: -0.2px;
   color: #232021;
   margin: 13px 15px 8px 15px;
 }
 
 p.text{
-  font-family: Helvetica;
+  font-family: CircularStd-Book, Helvetica;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
   color: #8F969C;
   margin: 0px 15px 0px 15px;
 }
