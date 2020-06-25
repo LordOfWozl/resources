@@ -37,6 +37,26 @@ https://sbxow.csb.app/
 https://www.youtube.com/watch?v=qJf8N46OEMk */
 
 
+/* freecodecamp requirements */
+#header{
+
+}
+
+#nav-bar{
+
+}
+
+.nav-link{
+
+}
+
+nav{
+  font-family: CircularStd-Bold, Helvetica;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
 /* general */
 html{
   scroll-behavior: smooth;
