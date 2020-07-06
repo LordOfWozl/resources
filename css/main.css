@@ -51,8 +51,39 @@ https://www.youtube.com/watch?v=qJf8N46OEMk */
 }
 
 #form{
-  
+
 }
+
+
+
+#flex-free{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  height: 320px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 12px #EEF0F0;
+  transition: 0.4s;
+}
+
+#box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+    flex-basis: 10em;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+    flex-basis: 10em;
+  }
+
+
+/* real code */
+
 
 nav{
   font-family: CircularStd-Bold, Helvetica;
@@ -62,6 +93,7 @@ nav{
 }
 
 /* general */
+
 html{
   scroll-behavior: smooth;
 }
@@ -145,6 +177,7 @@ main {
 }
 
 
+
 @media only screen and (max-width: 1000px) {
   .card {
     grid-column-end: span 6;
@@ -177,6 +210,10 @@ main {
   grid-column-end: span 6;
   }
 }
+
+
+
+
 
 /* previous card design code
 .card{
@@ -224,4 +261,3 @@ p.text{
   color: #8F969C;
   margin: 0px 15px 0px 15px;
 }
-
